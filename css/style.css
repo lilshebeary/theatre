@@ -1,0 +1,50 @@
+* { box-sizing: border-box; } /* Switch to border-box for box-sizing. */
+
+body {
+  margin: 0; /* Remove the tiny space around the edge of the page */
+  background-color: blueviolet;
+  font-size: 2rem;
+  
+}
+.outer {
+    margin: 2rem;
+}
+.container { 
+    margin: 2rem auto;
+    border: 5px dashed black;
+    padding: 5rem;
+    max-width: 1000px;
+    
+}
+h1 {
+    font-family: 'Viaoda Libre', serif;
+    font-size: 5rem;
+    text-align: center;
+}
+button {
+    font-size: 1em;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 2;
+}
+img {
+    height: 200px;
+    margin-right: -5rem;
+    
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    
+}
+button {
+    padding: 1rem;
+    height: 4rem;
+    align-self: center;
+    margin-top: 3rem;
+}
+strong {
+    font-family: 'Viaoda Libre', serif;
+    font-weight: 600;
+    font-size: 3rem;
+}
